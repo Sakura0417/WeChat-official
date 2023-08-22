@@ -8,8 +8,11 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
+
   <WelcomeItem>
-    <template #icon>
+      <van-button type="primary">主要按钮</van-button>
+
+      <template #icon>
       <DocumentationIcon />
     </template>
     <template #heading>Documentation</template>
